@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
           <div class="activity-card-participants">
-            <h5>Participants inscrits :</h5>
+            <h5>Registered Participants:</h5>
             ${
               details.participants.length > 0
                 ? `<ul>${details.participants
